@@ -1,0 +1,383 @@
+*{
+    margin: auto;
+}
+
+body{
+    font-family:'PT Sans', sans-serif;
+    
+}
+
+#grandeDiv{
+    background: #ffffff;
+    width: 1000px;
+    height: 500px;
+    /* margin: auto; */
+    /* position: relative; */
+    
+}
+
+ul{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+
+/*HEADER*/
+header .logo img{
+    float: left;
+    height: 120px;
+    width: 250px;
+    background: transparent;
+    margin-top: 20px;
+}
+header nav{
+    float: right; 
+    margin-top: -35px; 
+    white-space: nowrap;
+    margin-left: 300px;
+    margin-right: -300px;
+}
+header nav ul li {
+    
+    display: inline-block;
+    
+    
+}
+header nav ul li a 
+{
+
+    white-space: nowrap;
+    margin-right: 50px;
+
+    /* margin-right: 10px; */
+}
+
+.a1{
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+.a2{
+    color: rgb(184, 5, 94);
+    font-weight: bold;
+    font-size: 20px;
+}
+.a3{
+    color: rgb(82, 157, 250);
+    font-weight: bold;
+    font-size: 20px;
+}
+.a4{
+    color: rgb(238, 113, 190);
+    font-weight: bold;
+    font-size: 20px;
+}
+.a5{
+    color: rgb(10, 255, 31);
+    font-weight: bold;
+    font-size: 20px;
+}
+/* .decouvrez .logo1{
+    padding: 150px 25px 150px 25px;
+    float: left;
+} */
+
+/*DECOUVREZ*/
+.logo1 img{
+    height: 60px;
+    width: 60px;
+    margin-left: 0;
+   
+}
+.decouvrez{
+    
+    padding: 80px 320px 50px 25px;
+    
+    display: flex;
+    justify-content:space-between;
+}
+.decouvrez h2{
+    align-self:center;
+
+
+}
+.gras{
+    font-weight: normal;
+}
+.decouvrez h4{
+    font-weight: normal;
+}
+
+
+/*CASES*/
+
+/* .premiereCase p{
+    
+    align-self:flex-end;
+    
+    
+}  */
+.cases{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-left: 100px;
+
+
+}
+.cases h4, .cases p{
+    padding: 10px 20px 10px 20px;
+}
+p{
+    font-size: 10px;
+    margin-top: -30px;
+    white-space: nowrap;
+}
+h4{
+    white-space:nowrap;
+    
+}
+
+#premiereCase, #deuxiemeCase, #troisiemeCase, #quatriemeCase {
+    display: flex;
+    height: 100px;
+    width: 700px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+.active{
+    background-color: #f3eb06;
+    color: #000;
+}
+.inactive{
+    background-color: grey;
+    color: white;
+}
+.lien{
+    background-color: rgb(91, 243, 91);
+}
+/* .toggle{
+    background-color: #858582;
+    /* color: #ffffff; */
+/* 
+#premiereCase{
+    display: flex;
+    height: 100px;
+    width: 700px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    background-color: #f3eb06;
+    
+
+}
+
+/*
+#deuxiemeCase:hover{
+    background-color: #858582;
+    color: #ffffff;
+}
+#troisiemeCase:hover{
+    background-color: #858582;
+    color: #ffffff;
+}
+#quatriemeCase:hover{
+    background-color: #858582;
+    color: #ffffff;
+} */
+/*
+
+#deuxiemeCase{
+    
+    display: flex;
+    height: 100px;
+    width: 700px;
+    max-width:100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #f3eb06;
+    margin-right: 20px;
+
+}
+#troisiemeCase{
+    
+    display: flex;
+    height: 100px;
+    width: 700px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #f3eb06;
+    margin-right: 20px;
+
+}
+#quatriemeCase{
+    
+    display: flex;
+    height: 100px;
+    width: 700px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #f3eb06;
+    margin-right: 20px;
+
+} 
+
+/*hidden*/
+
+#cinquiemeCase{
+    display: none;
+}
+
+/* .auteur{
+    display: flex;
+    justify-content: center;
+    margin-right: -90px;
+}
+.auteur a{
+    font-size: 12px;
+}
+.technicien{
+    display: flex;
+    justify-content: center;
+    margin-right: -90px;
+}
+.technicien a{
+    font-size: 12px;
+}
+.debutant{
+    display: flex;
+    justify-content: center;
+    margin-right: -90px;
+}
+.debutant a{
+    font-size: 12px;
+}
+.libraire{
+    display: flex;
+    justify-content: center;
+    
+}
+.libraire a{
+    font-size: 12px;
+}
+.editeur{
+    display: flex;
+    justify-content: center;
+    margin-left:-150px;
+}
+.editeur a{
+    font-size: 12px;
+}
+h5{
+    margin-top: 20px;
+}
+.premiereSec{
+    display: flex;
+    flex-direction: row;
+}
+.premiereSec a{
+    margin-top: -15px;
+    margin-left: -100px;
+} */
+
+
+.premiereSec{
+    display: flex;
+    
+    flex-direction: row;
+    align-content: space-between;
+    
+    margin-top: 20px;
+    margin-left: auto;
+    
+}
+.premiereSec h5{
+    margin-left: 100px;
+    margin-right: 380px;
+    white-space: nowrap;
+}
+.premiereSec a{
+    
+    margin-left: -370px;
+    flex-basis: 0;
+    padding: 0 5px 0 5px;
+    
+} 
+.deuxiemeSec{
+    display: flex;
+    
+    flex-direction: row;
+    
+    margin-top: -20px;
+    margin-left: 1115px;
+    white-space: nowrap;
+    
+}
+.deuxiemeSec a{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 5px;
+    white-space: nowrap;
+    flex-basis: 0;
+    padding: 0 10px 0 10px;
+    
+}
+.deuxiemeSec h5{
+    white-space: nowrap;
+    margin-left: -80px;
+}
+
+
+#cinquiemeCase a{
+    display: flex;
+    /* border: 1px solid rgb(91, 243, 91);*/
+    
+    border-radius: 20px;
+    justify-content: center;
+    align-content: space-between;
+    font-size: 12px;
+    
+
+    height: 15px;
+    width: 78px;
+    
+}
+#cinquiemeCase .livre{
+
+    background-color:rosybrown ;
+    border: 1px solid rosybrown;
+}
+#cinquiemeCase .image{
+    background-color: aqua;
+    border: 1px solid aqua;
+}
+
+
+.container{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:20px;
+}
+.blackRod{
+    display: inline-block;
+   
+    
+    background-color: #000;
+    height: 1px;
+    width: 1168px;
+    margin-top: 10px;
+    margin-left:100px;
+
+
